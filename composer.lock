@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3958dc24d01789e1c9aaaf06c258a511",
+    "content-hash": "810ffc051b0ce00e34434e2796286d32",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -20633,6 +20633,31 @@
             "time": "2023-02-13T17:21:24+00:00"
         },
         {
+            "name": "swiftotter/module-mock-erp-api",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "training-modules/professional-developer-project/src/mock-erp-api",
+                "reference": "6d7132002a23a5068143b8756bca89135b5d0835"
+            },
+            "require": {
+                "magento/framework": "^103"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "SwiftOtter\\MockErpApi\\": ""
+                }
+            },
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
+        },
+        {
             "name": "symfony/config",
             "version": "v6.2.7",
             "source": {
@@ -27577,7 +27602,7 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
